@@ -4,6 +4,7 @@ version: 7.0.0
 homepage: https://docs.page/Lyokone/flutterlocation
 repository: https://github.com/Lyokone/flutterlocation
 issue_tracker: https://github.com/Lyokone/flutterlocation/issues
+publish_to: none
 
 environment:
   sdk: ">=3.4.0 <4.0.0"
@@ -26,7 +27,11 @@ dependencies:
   flutter:
     sdk: flutter
   location_platform_interface: ^5.0.0
-  location_web: ^5.0.3
+  location_web:
+    git:
+      url: https://github.com/giangphan11/flutterlocation
+      path: packages/location_web
+      ref: cc75fab
 dev_dependencies:
   async: ^2.11.0
   build_runner: ^2.4.11
