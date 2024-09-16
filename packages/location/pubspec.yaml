@@ -27,11 +27,6 @@ dependencies:
   flutter:
     sdk: flutter
   location_platform_interface: ^5.0.0
-  location_web:
-    git:
-      url: https://github.com/giangphan11/flutterlocation
-      path: packages/location_web
-      ref: cc75fab
 dev_dependencies:
   async: ^2.11.0
   build_runner: ^2.4.11
